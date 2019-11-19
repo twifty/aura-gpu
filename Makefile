@@ -6,8 +6,11 @@ SRCS = \
 	asic/asic-polaris.c \
 	asic/asic-vega.c \
 	asic/asic-navi.c \
+	atom/atom.c \
 	aura-gpu-reg.c \
 	aura-gpu-i2c.c \
+	aura-gpu-bios.c \
+	aura-gpu-hw.c \
 	main.c
 
 KERNELDIR = /lib/modules/$(shell uname -r)/build

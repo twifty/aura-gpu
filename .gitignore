@@ -1,0 +1,17 @@
+*.o
+*~
+*.d
+*core
+*.depend
+*.*.cmd
+*.mod
+*.mod.c
+*.tmp_versions
+*.order
+*.symvers
+build
+
+aura/usb
+aura/err.h
+*dump
+drivers/Makefile

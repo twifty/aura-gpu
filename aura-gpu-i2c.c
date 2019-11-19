@@ -3,6 +3,7 @@
 #include <linux/delay.h>
 
 #include "debug.h"
+#include "pci_ids.h"
 #include "aura-gpu-reg.h"
 #include "aura-gpu-i2c.h"
 #include "asic/asic-registers.h"

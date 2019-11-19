@@ -40,7 +40,7 @@ sudo modprobe i2c-dev
 ```
 List all i2c devices with:
 ```
-sudo i2detect -l
+sudo i2cdetect -l
 ```
 It will output something like
 ```
@@ -59,7 +59,7 @@ i2c-5   i2c             dmdc                                    I2C adapter
 ```
 Here we can see this module "AURA GPU adapter" is detected as device number 11. We can now scan that device with:
 ```
-sudo i2c-detect -y 11
+sudo i2cdetect -y 11
 ```
 It should output all clients available on that bus:
 ```
