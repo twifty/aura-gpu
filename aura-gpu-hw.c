@@ -411,6 +411,7 @@ static struct hw_i2c_context *aura_gpu_i2c_create (
     context->atom_context->scratch_size_bytes = sizeof(context->scratch);
     context->adapter.owner = THIS_MODULE;
     context->adapter.class = I2C_CLASS_DDC;
+    context->adapter.dev.parent = &pci_dev->dev;
 
     i2c_set_adapdata(&context->adapter, context);
 
