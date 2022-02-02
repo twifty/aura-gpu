@@ -15,3 +15,5 @@ aura/usb
 aura/err.h
 *dump
 drivers/Makefile
+aura-gpu.ko
+
